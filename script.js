@@ -1,4 +1,4 @@
-window.onload = function () {
+document.addEventListener("DOMContentLoaded", function () {
     
 let mainBtn = document.getElementById('themeChange');
 if (localStorage.getItem('bgcolor') !== null){
@@ -19,6 +19,6 @@ mainBtn.addEventListener("click", function() {
         
     }
  });
-};
+});
 
 
